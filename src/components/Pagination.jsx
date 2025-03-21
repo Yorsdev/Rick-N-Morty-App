@@ -1,4 +1,4 @@
-import '../assets/pagination.css'
+import './assets/pagination.css'
 
 function Pagination({ page, totalPages, prev, next }) {
   return (
