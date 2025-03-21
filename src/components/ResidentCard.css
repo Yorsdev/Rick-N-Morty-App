@@ -1,0 +1,105 @@
+.resident-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 8px 0 #386004;
+  transition: 
+    transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 768px;
+  height: 100%;
+}
+
+.resident-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 20px #70a925;
+}
+
+.resident__header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(360deg, #000, #1a4719);
+  background-size: cover;
+}
+
+.resident__header:hover .resident__status {
+  opacity: 1;
+}
+
+.resident__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+}
+
+.resident__status {
+  position: absolute;
+  font-size: 1em;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: orange;
+  padding: 0.2em 1em;
+  border-radius: 8px;
+  opacity: 0; /* Oculto por defecto */
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.resident__body {
+  flex-grow: 1;
+  padding: 1em 1.5em;
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.resident__name {
+  border-bottom: 1px solid #b4b3b3;
+  margin: 0;
+  padding-bottom: .50em;
+  margin-bottom: .75em;
+  font-size: 2em;
+}
+.resident__name:hover {
+  color: orange;
+}
+
+.resident__info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.4em
+}
+.resident__span:hover {
+  color: rgb(2, 226, 234);
+}
+
+.resident__item {
+  color: #666;
+  text-transform: capitalize;
+}
+
+.resident__span {
+  color: #898989;
+  font-weight: bold;
+}
+

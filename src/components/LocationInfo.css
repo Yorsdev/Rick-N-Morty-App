@@ -1,0 +1,49 @@
+.location {
+  padding: 2.5em 1em;
+  display: grid;
+  place-content: center;
+}
+
+.location__container {
+  max-width: 768px;
+  min-width: 300px;
+  width: 100%;
+  padding: 1.5em;
+  border: 1px solid #70a925;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px #000;
+  background-color: #000;
+}
+
+.location__name {
+  color: #70a925;
+  text-align: center;
+  font-size: 2em;
+}
+.location__name:hover {
+  color: orange;
+}
+
+.location__info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.location__item {
+  color: rgb(84, 83, 83);
+  text-align: center;;
+  font-size: small;
+}
+
+.location__span {
+  display: block;
+  color: #898989;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: underline;
+}
+

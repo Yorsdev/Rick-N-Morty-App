@@ -1,0 +1,11 @@
+.residents {
+  max-width: 100%;
+  width: 90dvw;
+  margin: 0 auto;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-rows: auto auto;
+  gap: 15px;
+  overflow: hidden;
+}
