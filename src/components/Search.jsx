@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useDebounce } from "../hooks/useDebounce";
-import "./Search.css";
+import "./search.css";
 import axios from "axios";
 
 function Search({ setSearchQuery }) {

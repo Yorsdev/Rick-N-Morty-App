@@ -1,6 +1,6 @@
 import ResidentCard from "./ResidentCard";
 import Pagination from "./Pagination";
-import './ResidentsList.css'
+import './residentslist.css'
 import { usePagination } from "../hooks/usePagination";
 
 
