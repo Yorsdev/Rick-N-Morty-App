@@ -1,6 +1,6 @@
 import {React, useEffect } from 'react'
 import { useFetchApi } from '../hooks/useFetchApi'
-import './assets/residentcard.css'
+import './residentcard.css'
 
 function ResidentCard({ url }) {
   const { data: resident, request, loading } = useFetchApi()
