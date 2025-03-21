@@ -1,6 +1,6 @@
 import React from 'react'
 import heroVideo from '../assets/videos/RM_Hero.mp4'
-import './hero.css'
+import '../assets/hero.css'
 
 function Hero() {
   return (

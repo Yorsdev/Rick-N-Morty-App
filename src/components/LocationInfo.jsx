@@ -1,4 +1,4 @@
-import './locationinfo.css'
+import '../assets/locationinfo.css'
 
 function LocationInfo({ location }) {
   console.log(location)
